@@ -16,10 +16,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest --detectOpenHandles"
   },
   "dependencies": {
     "express": "^5.2.1",
     "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }
